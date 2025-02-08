@@ -43,8 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomExceptions\EmptyInputException.cs" />
+    <Compile Include="CustomExceptions\InvalidBoardLengthException.cs" />
+    <Compile Include="CustomExceptions\NonSolvableBoardException.cs" />
+    <Compile Include="CustomExceptions\NotVaildBoardException.cs" />
+    <Compile Include="CustomExceptions\NotVaildInputException.cs" />
+    <Compile Include="DataStructures\Cell\ICell.cs" />
+    <Compile Include="DataStructures\Cell\SolvedCell.cs" />
+    <Compile Include="DataStructures\Cell\UnsolvedCell.cs" />
+    <Compile Include="DataStructures\SodokuBoard\Board.cs" />
+    <Compile Include="DataStructures\SodokuBoard\IBoard.cs" />
+    <Compile Include="GlobalConstants.cs" />
+    <Compile Include="Heuristics\HiddenSingleHeuristic.cs" />
+    <Compile Include="Heuristics\NakedPairsHeuristic.cs" />
+    <Compile Include="Heuristics\NakedSetsHeuristic.cs" />
+    <Compile Include="IO\FileHandler.cs" />
+    <Compile Include="IO\InputHandler.cs" />
+    <Compile Include="IO\InputUtils.cs" />
+    <Compile Include="IO\SolveBoardWithInput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SodokuSolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

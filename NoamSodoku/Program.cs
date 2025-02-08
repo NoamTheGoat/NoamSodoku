@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static NoamSodoku.IO.InputHandler;
 
 namespace NoamSodoku
 {
@@ -10,6 +11,7 @@ namespace NoamSodoku
     {
         static void Main(string[] args)
         {
+            RunProgram();
         }
     }
 }
